@@ -4,7 +4,8 @@ export default function ImageDetail({ title, imageSource, imageScore }) {
 	return (
 		<View>
 			<Image source={imageSource} />
-			<Text>{title}</Text>;<Text>Image score - {imageScore}</Text>
+			<Text>{title}</Text>
+			<Text>Image score - {imageScore}</Text>
 		</View>
 	);
 }
